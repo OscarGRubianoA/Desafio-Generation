@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #23242B;
+}
+header h1{
+    text-align: center;
+    margin: 1rem;
+    color: #DFC8DF;
+    
+}
+header img{
+    width: 100%;
+    height: 33vh;
+    object-fit: cover;
+}
+main{
+    background-color: #23242B;
+    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+    
+    
+    
+
+}
+main aside img{
+    height: 6rem;
+    object-fit: cover;
+}
+main aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: .5rem;
+
+}
+main aside a{
+    text-decoration: none;
+     color: #DFC8DF; 
+   
+}
+main section{
+    width: 27.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+    gap: .9rem;
+    color: white;
+    /* border: 1px solid #DFC8DF; */ 
+    padding: .1rem;
+}
+main section img{
+    height: 15rem;
+    border-radius: .5rem;
+   
+}
+footer{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color:#DFC8DF
+}
+footer a{
+    text-decoration: none;
+    color:#DFC8DF;
+}
